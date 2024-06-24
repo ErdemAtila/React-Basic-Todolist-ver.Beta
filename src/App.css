@@ -1,4 +1,6 @@
-
+body {
+  background-color: antiquewhite;
+}
 .to-do-list {
   display: flex;
   flex-direction: column;
