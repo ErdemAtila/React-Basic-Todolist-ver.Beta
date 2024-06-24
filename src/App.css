@@ -1,7 +1,4 @@
-body {
-  background-color:aqua;
-  font-family: Arial, Helvetica, sans-serif;
-}
+
 .to-do-list {
   display: flex;
   flex-direction: column;
@@ -98,7 +95,7 @@ body {
 .header {
   height: 120px;
   margin-bottom: 6px;
-  border-bottom: 4px solid wheat;
+  border-bottom: 4px solid grey;
   width: 98%;
   align-self: center;
   display: flex;
