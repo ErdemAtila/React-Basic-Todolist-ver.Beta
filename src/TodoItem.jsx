@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
-
 function TodoItem({item, setRes, res, findItem}) {
     return (
         <div key={item.id} className={item.checked ? "to-do-container completed" : "to-do-container"}>
@@ -13,7 +12,6 @@ function TodoItem({item, setRes, res, findItem}) {
               let itemId = e.target.getAttribute("id");
               let theIndex = findItem(itemId, res);
 
-              
               res[theIndex]["checked"] = newCheckboxValue;
               let newRes = [...res]
               setRes(newRes);
