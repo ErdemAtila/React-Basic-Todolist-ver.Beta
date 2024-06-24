@@ -98,11 +98,10 @@ body {
 .header {
   height: 120px;
   margin-bottom: 6px;
-  border-bottom: 4px solid #4D4D4D;
+  border-bottom: 4px solid wheat;
   width: 98%;
   align-self: center;
   display: flex;
-  flex-direction: row;
 }
 
 .header-title {
